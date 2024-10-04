@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 230px;
+
+  & button {
+    cursor: pointer;
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
